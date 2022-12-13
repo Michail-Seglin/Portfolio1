@@ -36,7 +36,7 @@ header nav p {
     color: #181717;
 }
 
-.prewiew .img-arrow {
+.preview .img-arrow {
     background-image: url('../assets/arrow.svg');
     width: 33px;
     height: 39px;
@@ -45,36 +45,39 @@ header nav p {
     margin-top: 128px;
 }
 
-.prewiew .info {
+.preview .info {
     display: flex;
     justify-content: space-between;
-align-items: center;
+    align-items: center;
 }
 
-.prewiew .info h1 {
+.preview .info h1 {
     font: 500 60px 'DM Sans';
     background: #181717;
 }
-.prewiew .info p {
+
+.preview .info p {
     font: 400 32px 'DM Sans';
-color: #606060;
+    color: #606060;
 }
+
 footer {
     display: flex;
     justify-content: space-between;
     margin-top: 120px;
-  }
-  
-  footer .networks {
+}
+
+footer .networks {
     display: flex;
-  }
-  
-  footer .networks p {
+}
+
+footer .networks p {
     margin-right: 30px;
     font: 500 22px "DM Sans";
     color: #181717;
-  }
-  footer .name {
+}
+
+footer .name {
     font: 500 22px "DM Sans";
     color: #2429af;
-  }
+}
