@@ -8,14 +8,18 @@
 body {
     width: 1250px;
     margin: auto;
-    background: #E5E5E5;
+    background-color: #e5e5e5;
 }
 
 header {
+    position: fixed;
+    top: 0;
+    width: 1200px;
+    background-color: #e5e5e5;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 15px;
+    padding-top: 15px;
 }
 
 header .img-logo {
@@ -31,16 +35,24 @@ header nav {
 }
 
 header nav p {
-    margin-right: 27px;
     font: 500 22px 'DM Sans';
     color: #181717;
 }
 
+header nav p:hover {
+    text-decoration: underline;
+}
+header nav p:not(:last-child)
+{margin-right: 27px;}
 section {
     margin-top: 160px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+
+.preview {
+    margin-top: 128px;
 }
 
 .preview .img-arrow {
@@ -50,6 +62,11 @@ section {
     background-repeat: no-repeat;
     background-size: contain;
     margin-top: 128px;
+    position: relative;
+}
+
+.preview .img-arrow:hover {
+    top: 5px;
 }
 
 .preview .info {
@@ -80,11 +97,12 @@ footer .networks {
 }
 
 footer .networks p {
-    margin-right: 30px;
     font: 500 22px "DM Sans";
     color: #181717;
 }
-
+footer .networks p:not(:last-child){
+    margin-right: 30px;
+}
 footer .name {
     font: 500 22px "DM Sans";
     color: #2429af;
@@ -92,7 +110,7 @@ footer .name {
 
 .project .one {
     display: flex;
-    
+
 }
 
 .project .one .text .list {
@@ -190,9 +208,11 @@ footer .name {
     background: #606060;
     margin-left: 124px;
 }
+
 .project .three {
     display: flex;
 }
+
 .project .three .text .list {
     font: 500 24px 'DM Sans';
     color: #181717;
