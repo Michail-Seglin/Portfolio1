@@ -36,6 +36,13 @@ header nav p {
     color: #181717;
 }
 
+section {
+    margin-top: 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
 .preview .img-arrow {
     background-image: url('../assets/arrow.svg');
     width: 33px;
@@ -53,7 +60,8 @@ header nav p {
 
 .preview .info h1 {
     font: 500 60px 'DM Sans';
-    background: #181717;
+    color: #181717;
+    width: 360px;
 }
 
 .preview .info p {
@@ -80,4 +88,149 @@ footer .networks p {
 footer .name {
     font: 500 22px "DM Sans";
     color: #2429af;
+}
+
+.project .one {
+    display: flex;
+    
+}
+
+.project .one .text .list {
+    font: 500 24px 'DM Sans';
+    color: #181717;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.project .one .text .list .one {
+    font: 500 24px 'DM Sans';
+    color: #181717;
+    margin-bottom: 25px;
+}
+
+.project .one .text .list .two {
+    font: 500 22px 'DM Sans';
+    color: #181717;
+    width: 356px;
+    margin-bottom: 50px;
+}
+
+.project .one .text .list .three {
+    font: 400 22px 'DM Sans';
+    color: #606060;
+}
+
+.project .one .text h3 {
+    font: 500 22px 'DM Sans';
+    text-decoration-line: underline;
+    color: #181717;
+    margin-top: 161px;
+}
+
+.project .one .img-project1 {
+    background-image: url(../assets/Th.svg);
+    Width: 640px;
+    Height: 364px;
+    background: #606060;
+    margin-left: 124px;
+}
+
+.project .img-line {
+    background-image: url(../assets/Seperator.svg);
+    width: 1115px;
+    height: 3px;
+    color: #181717;
+    margin-bottom: 114px;
+    margin-top: 108px;
+}
+
+.project .two {
+    display: flex;
+}
+
+.project .two .text .list {
+    font: 500 24px 'DM Sans';
+    color: #181717;
+    display: flex;
+    flex-direction: column;
+}
+
+.project .two .text .list .one {
+    font: 500 24px 'DM Sans';
+    color: #181717;
+    margin-bottom: 32px;
+}
+
+.project .two .text .list .two {
+    font: 500 22px 'DM Sans';
+    color: #181717;
+    width: 356px;
+    margin-bottom: 20px;
+}
+
+.project .two .text .list .three {
+    font: 400 22px 'DM Sans';
+    color: #606060;
+    Width: 316px;
+    Height: 65px;
+}
+
+.project .two .text h3 {
+    font: 500 22px 'DM Sans';
+    text-decoration-line: underline;
+    color: #181717;
+    margin-top: 156px;
+}
+
+.project .two .img-project2 {
+    background-image: url(../assets/Thu.svg);
+    Width: 640px;
+    Height: 364px;
+    background: #606060;
+    margin-left: 124px;
+}
+.project .three {
+    display: flex;
+}
+.project .three .text .list {
+    font: 500 24px 'DM Sans';
+    color: #181717;
+    display: flex;
+    flex-direction: column;
+}
+
+.project .three .text .list .one {
+    font: 500 24px 'DM Sans';
+    color: #181717;
+    margin-bottom: 46px;
+}
+
+.project .three .text .list .two {
+    font: 500 22px 'DM Sans';
+    color: #181717;
+    width: 356px;
+    margin-bottom: 18px;
+}
+
+.project .three .text .list .three {
+    font: 400 22px 'DM Sans';
+    color: #606060;
+    Width: 316px;
+    Height: 65px;
+}
+
+.project .three .text h3 {
+    font: 500 22px 'DM Sans';
+    text-decoration-line: underline;
+    color: #181717;
+    margin-top: 143px;
+}
+
+.project .three .img-project3 {
+    background-image: url(../assets/Thum.svg);
+    Width: 640px;
+    Height: 364px;
+    background: #606060;
+    margin-left: 124px;
 }
