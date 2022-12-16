@@ -154,8 +154,7 @@ footer .name {
     margin-left: 124px;
 }
 
-.project .img-line {
-    background-image: url(../assets/Seperator.svg);
+.project hr {
     width: 1115px;
     height: 3px;
     color: #181717;
